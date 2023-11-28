@@ -12,9 +12,6 @@ app.use(express.json());
 async function run() {}
 run().catch((err) => console.log(err));
 
-// user: dbuser2
-// pass: I7eeyYlldJpqE86j
-
 const uri =
   "mongodb+srv://dbuser2:I7eeyYlldJpqE86j@cluster0.g5pva2z.mongodb.net/?retryWrites=true&w=majority";
 
